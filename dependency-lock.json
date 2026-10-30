@@ -1,0 +1,10 @@
+{
+  "appleRepository": "https://github.com/amnezia-vpn/amneziawg-apple.git",
+  "appleRevision": "9d5ee60edefa95b933a738dd7cda671dd18021fc",
+  "goVersion": "1.26.8",
+  "goDarwinArm64SHA256": "a012b25b571bd0138a03dcd25375ceba866fe5ca822f426d2c66a4de56fd3f4b",
+  "awgModule": "github.com/amnezia-vpn/amneziawg-go/v3",
+  "awgVersion": "v3.1.20260814",
+  "sparkleVersion": "2.10.0",
+  "sparkleToolsSHA256": "c2bf58aa8387266ac179357b1415d6f2635f044da8be41042af32425dae6da0c"
+}

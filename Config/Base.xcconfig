@@ -1,0 +1,17 @@
+MACOSX_DEPLOYMENT_TARGET = 14.0
+SWIFT_VERSION = 5.0
+CODE_SIGN_STYLE = Automatic
+ENABLE_HARDENED_RUNTIME = YES
+DEAD_CODE_STRIPPING = YES
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+// Apple Development profiles use the unsuffixed entitlement.
+// Developer ID export must use packet-tunnel-provider-systemextension and matching profiles.
+UNDERCORE_NETWORK_EXTENSION_KIND = packet-tunnel-provider
+#include? "Local.xcconfig"
+
+// Increment for each installed release so macOS replaces the system extension.
+CURRENT_PROJECT_VERSION = 4
+
+MARKETING_VERSION = 0.1.1
+// Opt in only when the signed test feed is published.
+UNDERCORE_UPDATES_ENABLED = NO
